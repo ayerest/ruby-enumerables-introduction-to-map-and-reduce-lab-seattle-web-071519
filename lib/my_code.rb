@@ -33,3 +33,7 @@ def map_to_square(array)
   end
   new_array
 end
+
+
+def reduce_to_total(array)
+end
