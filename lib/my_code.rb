@@ -35,8 +35,7 @@ def map_to_square(array)
 end
 
 
-def reduce_to_total(array)
-  sum = 0
+def reduce_to_total(array, sum=0)
   counter = 0
   while counter < array.length
     sum += array[counter]
